@@ -8,6 +8,8 @@ The preferred way of installing lillik/product-random-qty is through Composer. S
 
 ```bash
 php composer.phar require lillik/product-random-qty
+php bin/magento module:enable Lillik_ProductRandomQty
+php bin/magento setup:upgrade
 ```
 
 ### How to use ###
